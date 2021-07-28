@@ -48,3 +48,30 @@ a{
 
 } */
 /* End Hero Section */
+
+
+/* Footer */
+footer{
+    background-color: black;
+}
+#fgrid{
+    grid-template-columns: 9fr 3fr;
+}
+#app{
+    grid-row: span 3;
+}
+/* End of Footer */
+
+@media only screen and (max-width: 768px) {
+    #fgrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #app{
+        order: 1;
+        text-align: center;
+    }
+    #copy{
+        order: 2;
+        text-align: center;
+    }
+}
