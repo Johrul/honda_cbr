@@ -29,6 +29,9 @@ body{
 a{
     text-decoration: none;
 }
+.redtitle{
+    color: var(--btnbg);
+}
 /* Hero Section */
 #hero{
     background-image: url("../images/my/cbr125orange.png");
@@ -89,4 +92,8 @@ footer{
         order: 2;
         text-align: center;
     }
+}
+
+@media only screen and (max-width: 414px) {
+
 }
