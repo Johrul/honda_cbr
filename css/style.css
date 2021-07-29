@@ -32,6 +32,9 @@ a{
 .redtitle{
     color: var(--btnbg);
 }
+.grayscale{
+    filter: grayscale(100%);
+}
 /* Hero Section */
 #hero{
     background-image: url("../images/my/cbr125orange.png");
