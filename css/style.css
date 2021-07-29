@@ -35,6 +35,9 @@ a{
 .grayscale{
     filter: grayscale(100%);
 }
+.grayscale:hover{
+    filter: grayscale(0%);
+}
 /* Hero Section */
 #hero{
     background-image: url("../images/my/cbr125orange.png");
